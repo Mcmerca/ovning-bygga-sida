@@ -55,3 +55,17 @@ categorySelect.addEventListener("change", updateList)
 sortSelect.addEventListener("change", updateList)
 
 updateList();
+
+let score = 65;
+let grade = "";
+
+// Write your if / else if / else statement here:
+if(score >= 80){
+  grade = "A";
+} else if(score >= 50) {
+  grade = "B";
+} else {
+  grade = "F";
+}
+
+console.log(grade);
